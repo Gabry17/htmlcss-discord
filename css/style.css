@@ -44,6 +44,8 @@ header{
     background-color: #5050f9;
 }
 
+/* MENU */
+
 .logo{
     line-height: 80px;
 }
@@ -72,6 +74,44 @@ header{
     color: black;
     background-color: white;
     border-radius: 1em;
-    padding: .6em;
+    padding: .8em;
+}
+
+/* BANNER */
+.banner{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-cont{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 5em;
+}
+
+/* BANNER-TEXT */
+.text{
+    color: white;
+}
+
+.text > h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* BANNER-BTN */
+.btn-banner .first-btn{
+    display: inline-block;
+    margin-top: 1em;
+}
+.second-btn{
+    background-color: black;
+    border-radius: 1em;
+    padding: .8em;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 1em;
 }
 
