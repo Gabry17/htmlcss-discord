@@ -73,7 +73,7 @@ header{
 .first-btn{
     color: black;
     background-color: white;
-    border-radius: 1em;
+    border-radius: 2em;
     padding: .8em;
 }
 
@@ -108,7 +108,7 @@ header{
 }
 .second-btn{
     background-color: black;
-    border-radius: 1em;
+    border-radius: 2em;
     padding: .8em;
     display: inline-block;
     margin-top: 1em;
@@ -145,4 +145,38 @@ header{
 
 .bg-gray{
     background-color: lightgray;
+}
+
+/* SECTION4 */
+.cont-sect-4{
+    width: 80%;
+    margin: auto;
+}
+
+.text-s4{
+    text-align: center;
+    padding: 3em;
+}
+
+.text-s4 > h2{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.text-s4 > p,
+.bg-img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bg-img{
+    background-image: url("../img/stars.svg");
+    
+}
+
+.text-s4 > a{
+    color: white;
+    background-color: #6969f9;
+    border-radius: 2em;
+    padding: .8em;
 }
