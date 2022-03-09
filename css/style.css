@@ -97,7 +97,7 @@ header{
 }
 
 .text > h2{
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 1em;
 }
 
@@ -118,28 +118,26 @@ header{
 /* MAIN */
 
 /* SECTION1 */
-.cont-sec-1{
-    height: 500px;
-    border: 1px solid black;
-}
-
 .main-col-1{
     width: 80%;
-    height: 100px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .col-1-main{
     width: 65%;
-    height: 100px;
-    background-color: aqua;
     float: left;
+}
+
+.col-1-main > img{
+    margin: 3em 0;
 }
 
 .col-2-main{
     width: 35%;
-    background-color: yellow;
-    height: 100px;
     float: left;
+}
+
+.col-2-main > h2{
+    margin: 3em 0;
+    font-size: 2em;
 }
