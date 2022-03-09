@@ -117,8 +117,8 @@ header{
 
 /* MAIN */
 
-/* SECTION1 */
-.main-col-1{
+/* SECTION */
+.main-col{
     width: 80%;
     margin: 0 auto;
 }
@@ -140,4 +140,8 @@ header{
 .col-2-main > h2{
     margin: 3em 0;
     font-size: 2em;
+}
+
+.bg-gray{
+    background-color: lightgray;
 }
